@@ -1,9 +1,17 @@
+/*
+	main.cpp file for the Dynamic Stack program
+	made by Luke Gegick
+*/
+
 #include <iostream>
+#include <iomanip>
 #include <string>
 #include <limits>
 #include "DynStack.hpp"
 
 using std::cout;
+using std::setfill;
+using std::setw;
 
 bool stringAlphaCheck(const string& userStr);
 
@@ -12,6 +20,7 @@ int main()
 	DynStack userStack;
 	string userStr;
 
+	//this while statements holds the simply UI that navigates the user through the stack operations
 	while (userStr != "quit" && userStr != "Quit")
 	{
 		cout << "\033[2J\033[1;1H"; //clear screen code

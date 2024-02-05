@@ -1,4 +1,20 @@
+/*
+	Implementation file for the Dynstack class
+
+	made by Luke Gegick
+*/
+
 #include "DynStack.hpp"
+#include <iostream>
+#include <iomanip>
+#include <cctype>
+
+using std::cout;
+using std::setw;
+using std::setfill;
+using std::toupper;
+using std::setw;
+using std::setfill;
 
 DynStack::DynStack()
 {

@@ -1,16 +1,16 @@
+/*
+	Header file for the class DynStack
+	which houses the necessary functions to make a dynamic stack through linked lists
+
+	made by Luke Gegick
+*/
+
 #ifndef DYNSTACK_H
 #define DYNSTACK_H
 
 #include <string>
-#include <iostream>
-#include <iomanip>
-#include <cctype>
 
 using std::string;
-using std::cout;
-using std::setw;
-using std::setfill;
-using std::toupper;
 
 class DynStack
 {
